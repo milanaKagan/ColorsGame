@@ -30,7 +30,6 @@ const $board = document.getElementById('board'),
         pink: './src/female/Pink.mp3'
     }
 };
-
 const playSound = (sex, sound) => {
     $audioTag.src = soundsUrls[sex][sound];
     $audioTag.play();

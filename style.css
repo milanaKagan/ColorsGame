@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     background: #CDDD39;
 }
-
 #board {
     width: 290px;
     padding: 10px;
